@@ -250,8 +250,8 @@ Week 20: Python Project ─────── Advanced (combines everything)
 | Sat | 2h | Solve 10 Medium problems (mixed topics) | HackerRank SQL + LeetCode SQL 50 | ⬜ |
 | Sun | 2h | Create 11_cte_and_views.sql + revise weak areas | SQLBolt for revision | ⬜ |
 
-**Confidence Score (1-10): ___**
-**Topics to revisit: ___**
+**Confidence Score (1-10): 7/10**
+**Topics to revisit: Window Functions practice, CTE syntax, combining JOIN + Subqueries**
 
 ---
 
@@ -267,8 +267,8 @@ Week 20: Python Project ─────── Advanced (combines everything)
 | Sat | 2h | Revise all weak areas. Redo problems you got wrong | HackerRank + LeetCode | ⬜ |
 | Sun | 2h | Download project dataset. Explore it. Plan analysis | Kaggle.com — search E-commerce dataset | ⬜ |
 
-**Confidence Score (1-10): ___**
-**Topics to revisit: ___**
+**Confidence Score (1-10): 7.5/10**
+**Topics to revisit: Complex query structuring, explaining logic clearly, edge cases in joins**
 
 ---
 
@@ -775,7 +775,7 @@ Python:
 
 | Skill | Week Started | Week Completed | Confidence (1-10) | Certificate |
 |-------|-------------|---------------|-------------------|-------------|
-| SQL | Week 1 | | /10 | HackerRank Badge: ⬜ |
+| SQL | Week 1 | Week 2 | 7.5/10 | HackerRank Badge: ⬜ |
 | Linux | Week 4 | | /10 | |
 | Networking | Week 7 | | /10 | |
 | AWS | Week 10 | | /10 | Cloud Practitioner: ⬜ |
@@ -800,8 +800,8 @@ Python:
 
 | Week | Topic | Hours Planned | Hours Actual | Streak |
 |------|-------|:------------:|:------------:|:------:|
-| 1 | SQL — Advanced | 11.5 | | ⬜ |
-| 2 | SQL — Complex | 11.5 | | ⬜ |
+| 1 | SQL — Advanced | 11.5 | 11.5 | 🟡 |
+| 2 | SQL — Complex | 11.5 | 6 | 🟡 |
 | 3 | 🔨 SQL Project | 11.5 | | ⬜ |
 | 4 | Linux — Basics | 11.5 | | ⬜ |
 | 5 | Linux — Scripting | 11.5 | | ⬜ |
@@ -829,16 +829,12 @@ Python:
 
 | # | Topic | Concept | Date Added | Date Revisited | Understood? |
 |---|-------|---------|-----------|---------------|-------------|
-| 1 | | | | | ⬜ |
-| 2 | | | | | ⬜ |
-| 3 | | | | | ⬜ |
-| 4 | | | | | ⬜ |
-| 5 | | | | | ⬜ |
-| 6 | | | | | ⬜ |
-| 7 | | | | | ⬜ |
-| 8 | | | | | ⬜ |
-| 9 | | | | | ⬜ |
-| 10 | | | | | ⬜ |
+| 1 | SQL | Window Functions (RANK vs DENSE_RANK vs ROW_NUMBER) | 25/03/2026 | ⬜ | ⬜ |
+| 2 | SQL | CTE syntax and usage in complex queries | 25/03/2026 | ⬜ | ⬜ |
+| 3 | SQL | Explaining query logic step-by-step | 25/03/2026 | ⬜ | ⬜ |
+| 4 | SQL | Combining JOIN + GROUP BY + HAVING correctly | 25/03/2026 | ⬜ | ⬜ |
+| 5 |  |  |  | ⬜ | ⬜ |
+
 
 ---
 
@@ -1029,7 +1025,7 @@ After 22 weeks I will have:
 
 *Started: [15 March 2026]*
 *Target: [31 August 2026]*
-*Current Week: ___*
+**Current Week: Week 2 (SQL — Complex Queries & Interview Prep)**
 
 > "You don't have to be great to start. But you have to start to be great."
 
