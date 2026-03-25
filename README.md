@@ -7,7 +7,7 @@ My 22-week plan to transition from non-tech to tech role
 - 🎓 BTech CSE (2017) | MTech CSE (Pursuing)
 - 💼 5+ years at Amazon in non-tech associate role
 - 🎯 Goal: Transition to Technical Support Engineer / AWS Cloud Support Associate
-- 📅 Started: [25 March 2026]
+- 📅 Started: [15 March 2026]
 - 📍 Target Completion: [31 August 2026]
 
 ---
@@ -276,9 +276,9 @@ Week 20: Python Project ─────── Advanced (combines everything)
 
 **Project: E-Commerce Sales Analysis**
 
-Import real Kaggle dataset into MySQL. Write 15+ analytical queries answering real business questions. Document with query + output + explanation.
+Import real Kaggle dataset into MySQL. Write 15+ analytical queries answering real business questions.
 
-**Business Questions to Answer:**
+**Business Questions:**
 1. Top 10 products by revenue
 2. Which month had highest sales
 3. Average order value per customer
@@ -304,17 +304,6 @@ Import real Kaggle dataset into MySQL. Write 15+ analytical queries answering re
 | Fri | 1.5h | Answer business questions 11-15. If behind: revise weak areas | ⬜ |
 | Sat | 2h | Create README: problem statement, schema, findings, screenshots | ⬜ |
 | Sun | 2h | Polish everything. Comments on every query. Final push | ⬜ |
-
-**GitHub Structure:**
-sql-practice/
-├── (existing files 01-12)
-└── /ecommerce-analysis-project/
-├── README.md
-├── schema_setup.sql
-├── data_exploration.sql
-├── business_questions.sql
-└── key_findings.md
-
 
 **Milestone Checklist:**
 - [ ] Real dataset analyzed with 15+ queries
@@ -363,7 +352,7 @@ sql-practice/
 
 **Project: Server Automation Toolkit**
 
-5 bash scripts automating real sysadmin tasks:
+5 bash scripts:
 1. `system_health_check.sh` — CPU, memory, disk, services status
 2. `user_manager.sh` — add/delete/list/lock users (menu-driven)
 3. `backup_automator.sh` — backup dirs, timestamp, compress, keep last 5
@@ -380,27 +369,10 @@ sql-practice/
 | Sat | 2h | Create README with screenshots and usage guide | ⬜ |
 | Sun | 2h | Add error handling and comments. Final push | ⬜ |
 
-**GitHub Structure:**
-linux-practice/
-├── README.md
-├── /notes/
-│ ├── commands_cheatsheet.md
-│ ├── permissions_notes.md
-│ └── bandit_solutions.md
-└── /server-automation-project/
-├── README.md
-├── system_health_check.sh
-├── user_manager.sh
-├── backup_automator.sh
-├── log_analyzer.sh
-└── server_setup.sh
-
-
 **Milestone Checklist:**
 - [ ] 5 working bash scripts on GitHub
 - [ ] Bandit Level 20+ completed
 - [ ] Can navigate terminal confidently
-- [ ] Server automation project with clean README
 - [ ] READY to move to Networking
 
 ---
@@ -443,24 +415,10 @@ linux-practice/
 
 **Project: Network Troubleshooting Lab**
 
-- Network diagram of your setup (draw.io)
-- 5 Wireshark captures analyzed with annotations
-- 25 troubleshooting scenarios with step-by-step solutions
-- CLI tools reference guide with real examples
-
-**Wireshark Captures:**
-1. Normal HTTP request — label each packet
-2. DNS resolution — trace full flow
-3. TCP 3-way handshake — explain each step
-4. HTTPS/TLS handshake — show encryption
-5. Failed connection — show what failure looks like
-
-**25 Troubleshooting Scenarios:**
-- DNS issues (4 scenarios)
-- Connectivity issues (6 scenarios)
-- HTTP issues (8 scenarios)
-- Performance issues (3 scenarios)
-- Server issues (4 scenarios)
+- Network diagram (draw.io)
+- 5 Wireshark captures analyzed
+- 25 troubleshooting scenarios with solutions
+- CLI tools reference guide
 
 | Day | Time | Task | Status |
 |-----|------|------|--------|
@@ -472,32 +430,10 @@ linux-practice/
 | Sat | 2h | Create CLI tools reference with real examples | ⬜ |
 | Sun | 2h | Comprehensive README. Final push to GitHub | ⬜ |
 
-**GitHub Structure:**
-networking-notes/
-├── README.md
-├── /notes/
-│ ├── ip_addressing.md
-│ ├── tcp_udp.md
-│ ├── dns_explained.md
-│ ├── http_status_codes.md
-│ └── networking_cheatsheet.md
-└── /network-troubleshooting-lab/
-├── README.md
-├── network_diagram.png
-├── /wireshark-captures/
-│ ├── http_analysis.md
-│ ├── dns_analysis.md
-│ ├── tcp_handshake_analysis.md
-│ ├── https_analysis.md
-│ └── failed_connection_analysis.md
-├── troubleshooting_playbook.md
-└── cli_tools_reference.md
-
-
 **Milestone Checklist:**
 - [ ] Network diagram created
-- [ ] 5 Wireshark captures analyzed and documented
-- [ ] 25 troubleshooting scenarios with solutions
+- [ ] 5 Wireshark captures analyzed
+- [ ] 25 troubleshooting scenarios documented
 - [ ] CLI tools reference guide
 - [ ] READY to move to AWS
 
@@ -579,15 +515,6 @@ networking-notes/
 CloudWatch → Monitoring everything
 
 
-**Steps:**
-1. Create VPC with public + private subnets
-2. Launch EC2, install Nginx, deploy website
-3. Create RDS in private subnet
-4. Connect EC2 to RDS, import SQL project data
-5. Setup S3 for static files
-6. Setup CloudWatch alarms + dashboard
-7. Create architecture diagram + documentation
-
 | Day | Time | Task | Status |
 |-----|------|------|--------|
 | Mon | 1.5h | Create VPC, subnets, internet gateway, route tables. Document with screenshots | ⬜ |
@@ -597,30 +524,6 @@ CloudWatch → Monitoring everything
 | Fri | 1.5h | Setup CloudWatch alarms and dashboard. Test alerts | ⬜ |
 | Sat | 2h | Create architecture diagram (draw.io). Write setup docs | ⬜ |
 | Sun | 2h | Comprehensive README with diagram, screenshots, lessons learned | ⬜ |
-
-**GitHub Structure:**
-aws-learning/
-├── README.md
-├── /notes/
-│ ├── ec2_notes.md
-│ ├── s3_notes.md
-│ ├── vpc_notes.md
-│ ├── rds_notes.md
-│ ├── iam_notes.md
-│ └── cloudwatch_notes.md
-└── /aws-web-app-project/
-├── README.md
-├── architecture_diagram.png
-├── /setup-docs/
-│ ├── 01_vpc_setup.md
-│ ├── 02_ec2_setup.md
-│ ├── 03_rds_setup.md
-│ ├── 04_s3_setup.md
-│ └── 05_cloudwatch_setup.md
-├── /website/
-│ └── index.html
-└── lessons_learned.md
-
 
 **Milestone Checklist:**
 - [ ] Full 3-tier architecture deployed
@@ -644,7 +547,6 @@ aws-learning/
 **Milestone Checklist:**
 - [ ] AWS Cloud Practitioner exam taken or scheduled
 - [ ] All AWS concepts solidified
-- [ ] AWS project polished
 - [ ] Internal roles researched
 - [ ] READY to move to API + Troubleshooting
 
@@ -700,7 +602,7 @@ aws-learning/
 
 **Project: Incident Response Simulator**
 
-10 real incidents simulated, diagnosed, and fixed on your AWS setup. Each documented like a real support ticket. Plus 5 runbooks.
+10 real incidents simulated, diagnosed, and fixed. Each documented like a real support ticket. Plus 5 runbooks.
 
 **10 Incidents:**
 1. "Website is Down" (Severity 1)
@@ -714,14 +616,6 @@ aws-learning/
 9. "API Returning 502" (Severity 2)
 10. "CloudWatch Alarm — No Data" (Severity 3)
 
-**Each incident documented with:**
-- Problem description
-- Detection method
-- Diagnosis steps with commands + screenshots
-- Resolution steps
-- Root cause
-- Prevention
-
 | Day | Time | Task | Status |
 |-----|------|------|--------|
 | Mon | 1.5h | Create troubleshooting-lab repo. Simulate Incidents 1-2. Document fully | ⬜ |
@@ -732,33 +626,9 @@ aws-learning/
 | Sat | 2h | Create 5 runbooks for most common issues | ⬜ |
 | Sun | 2h | Comprehensive README with incident summary table. Final push | ⬜ |
 
-**GitHub Structure:**
-troubleshooting-lab/
-├── README.md
-├── /incidents/
-│ ├── incident_01_website_down.md
-│ ├── incident_02_ssh_failure.md
-│ ├── incident_03_database_connection.md
-│ ├── incident_04_disk_full.md
-│ ├── incident_05_high_cpu.md
-│ ├── incident_06_permission_denied.md
-│ ├── incident_07_dns_failure.md
-│ ├── incident_08_s3_access.md
-│ ├── incident_09_api_502.md
-│ └── incident_10_monitoring_gap.md
-├── /runbooks/
-│ ├── website_down_runbook.md
-│ ├── ssh_failure_runbook.md
-│ ├── database_issues_runbook.md
-│ ├── disk_space_runbook.md
-│ └── general_triage_runbook.md
-└── /screenshots/
-
-
 **Milestone Checklist:**
 - [ ] 10 incidents simulated and documented
 - [ ] 5 runbooks created
-- [ ] Most unique project on GitHub
 - [ ] READY to move to Python
 
 ---
@@ -801,15 +671,15 @@ troubleshooting-lab/
 
 **Project: AWS Infrastructure Monitor Bot**
 
-Python tool that monitors AWS infrastructure. Checks EC2, RDS, S3, costs. Generates health report. Alerts if something wrong. Runs on cron.
+Python tool monitoring AWS infrastructure. Checks EC2, RDS, S3, costs. Generates report. Runs on cron.
 
 **Features:**
 1. EC2 Health Check — status, CPU, disk
 2. RDS Status Check — connections, storage
 3. S3 Usage Report — sizes, public bucket check
 4. Cost Checker — spending vs budget
-5. Report Generator — combined JSON + text report
-6. Alert System — log warnings for failures
+5. Report Generator — JSON + text report
+6. Alert System — log warnings
 
 **Files:** main.py, ec2_monitor.py, rds_monitor.py, s3_monitor.py, cost_monitor.py, report_generator.py, config.py, requirements.txt
 
@@ -822,32 +692,6 @@ Python tool that monitors AWS infrastructure. Checks EC2, RDS, S3, costs. Genera
 | Fri | 1.5h | Add error handling, logging, color output. If behind: simplify to 2-3 features | ⬜ |
 | Sat | 2h | Setup cron job. Create README with screenshots | ⬜ |
 | Sun | 2h | Polish code, add comments. Final push to GitHub | ⬜ |
-
-**GitHub Structure:**
-python-learning/
-├── README.md
-├── /basics/
-│ ├── variables_and_types.py
-│ ├── loops_and_conditions.py
-│ ├── functions_practice.py
-│ ├── file_handling.py
-│ └── json_practice.py
-├── /api-scripts/
-│ ├── weather_fetcher.py
-│ └── api_examples.py
-└── /aws-monitor-project/
-├── README.md
-├── main.py
-├── ec2_monitor.py
-├── rds_monitor.py
-├── s3_monitor.py
-├── cost_monitor.py
-├── report_generator.py
-├── config.py
-├── requirements.txt
-└── /sample-reports/
-└── health_report_sample.json
-
 
 **Milestone Checklist:**
 - [ ] Working AWS Monitor Bot
@@ -909,13 +753,6 @@ Python:
 - [ ] Can make API calls with requests
 - [ ] Can automate AWS tasks with boto3
 
-**Milestone Checklist:**
-- [ ] All 6 subjects revised
-- [ ] All GitHub repos cleaned and polished
-- [ ] Self-assessment completed
-- [ ] Confidence level high
-- [ ] READY for interviews
-
 ---
 
 ### WEEK 22: 🎯 Interview Prep + Capstone Portfolio
@@ -957,7 +794,7 @@ Python:
 | api-practice | ⬜ | ⬜ | ⬜ | ⬜ |
 | troubleshooting-lab | ⬜ | ⬜ | ⬜ | ⬜ |
 | python-learning | ⬜ | ⬜ | ⬜ | ⬜ |
-| tech-transition-roadmap | ⬜ | ⬜ | ⬜ | ⬜ |
+| tech-transition-roadmap | ✅ | ⬜ | 🟡 | 🟡 |
 
 ### Weekly Streak
 
@@ -989,8 +826,6 @@ Python:
 ---
 
 ## 📝 Revisit List
-
-*Add concepts here that you struggled with. Come back during buffer/project weeks.*
 
 | # | Topic | Concept | Date Added | Date Revisited | Understood? |
 |---|-------|---------|-----------|---------------|-------------|
@@ -1048,60 +883,7 @@ Python bot monitoring AWS with boto3
 
 ---
 
-## 📌 My Rules
-
-1. **Never skip 2 days in a row**
-2. **If tired, do 30 minutes instead of zero**
-3. **Consistency beats intensity**
-4. **Never spend more than 30 minutes stuck on one concept — note it and move on**
-5. **Buffer/project weeks are NOT optional — they are part of the plan**
-6. **Done is better than perfect**
-7. **Commit to GitHub every Monday minimum**
-8. **A small project > no project**
-
----
-
-## 🔧 When I Get Stuck Framework
-Step 1: Watch/read the SAME resource again (10 min)
-Step 2: Try a DIFFERENT resource (15 min)
-Step 3: Try to EXPLAIN it to yourself out loud (5 min)
-Step 4: Practice it HANDS-ON (20 min)
-Step 5: If STILL stuck → Write it in revisit list → Move on
-Step 6: Ask for help (Stack Overflow, Reddit, internal Slack)
-
-RULE: Never spend more than 30 minutes stuck on ONE concept.
-
-
----
-
-## 📅 Complete Timeline Summary
-Week 1: SQL — Window Functions & Advanced
-Week 2: SQL — Complex Queries & Interview Prep
-Week 3: 🔨 SQL PROJECT (E-Commerce Analysis) + Buffer
-Week 4: Linux — Basic Commands & File System
-Week 5: Linux — Process Management & Scripting
-Week 6: 🔨 LINUX PROJECT (Server Automation Toolkit) + Buffer
-Week 7: Networking — IP, TCP/UDP, DNS
-Week 8: Networking — HTTP, Wireshark, Troubleshooting
-Week 9: 🔨 NETWORKING PROJECT (Troubleshooting Lab) + Buffer
-Week 10: AWS — IAM, EC2, S3
-Week 11: AWS — VPC, RDS, CloudWatch
-Week 12: AWS — More Services & Certification Prep
-Week 13: 🔨 AWS PROJECT (Full Web App Deployment)
-Week 14: 🔄 AWS BUFFER + Certification
-Week 15: API — REST, Postman, curl
-Week 16: Troubleshooting — Break & Fix, Log Analysis
-Week 17: 🔨 TROUBLESHOOTING PROJECT (Incident Simulator) + Buffer
-Week 18: Python — Basics & Fundamentals
-Week 19: Python — APIs, Boto3, Automation
-Week 20: 🔨 PYTHON PROJECT (AWS Monitor Bot) + Buffer
-Week 21: 🔄 FULL REVISION WEEK
-Week 22: 🎯 INTERVIEW PREP + CAPSTONE PORTFOLIO
-
-
----
-
-## 📊 All LinkedIn Learning Courses (25 Total)
+## 📊 All LinkedIn Learning Courses (30 Total)
 
 **SQL:**
 1. SQL Essential Training — Walter Shields
@@ -1137,12 +919,12 @@ Week 22: 🎯 INTERVIEW PREP + CAPSTONE PORTFOLIO
 23. HTTP Essential Training — Morten Rand-Hendriksen
 24. Linux: System Monitoring and Troubleshooting
 25. Troubleshooting Your Network with Wireshark
+26. Understanding APIs and RESTful APIs Crash Course
 
 **Python:**
-26. Python Essential Training — Ryan Mitchell
-27. Python Quick Start — Kathryn Hodge
-28. Python: Working with Files
-29. Python: Automation and Testing
+27. Python Essential Training — Ryan Mitchell
+28. Python Quick Start — Kathryn Hodge
+29. Python: Working with Files
 30. Using Python with APIs
 
 ---
@@ -1167,14 +949,65 @@ Week 22: 🎯 INTERVIEW PREP + CAPSTONE PORTFOLIO
 
 ## 📖 All Free Books
 
-1. "The Linux Command Line" — [linuxcommand.org/tlcl.php](https://linuxcommand.org/tlcl.php)
-2. "Automate the Boring Stuff with Python" — [automatetheboringstuff.com](https://automatetheboringstuff.com)
-3. "Select Star SQL" — [selectstarsql.com](https://selectstarsql.com)
-4. "How DNS Works" — [howdns.works](https://howdns.works)
-5. "How HTTPS Works" — [howhttps.works](https://howhttps.works)
-6. "AWS in Plain English" — [expeditedsecurity.com](https://expeditedsecurity.com/aws-in-plain-english/)
-7. AWS Official Docs — [docs.aws.amazon.com](https://docs.aws.amazon.com)
+1. [The Linux Command Line — William Shotts](https://linuxcommand.org/tlcl.php)
+2. [Automate the Boring Stuff with Python](https://automatetheboringstuff.com)
+3. [Select Star SQL](https://selectstarsql.com)
+4. [How DNS Works](https://howdns.works)
+5. [How HTTPS Works](https://howhttps.works)
+6. [AWS in Plain English](https://expeditedsecurity.com/aws-in-plain-english/)
+7. [AWS Official Docs](https://docs.aws.amazon.com)
 
+---
+
+## 📌 My Rules
+
+1. **Never skip 2 days in a row**
+2. **If tired, do 30 minutes instead of zero**
+3. **Consistency beats intensity**
+4. **Never spend more than 30 minutes stuck on one concept — note it and move on**
+5. **Buffer/project weeks are NOT optional — they are part of the plan**
+6. **Done is better than perfect**
+7. **Commit to GitHub every Monday minimum**
+8. **A small project > no project**
+
+---
+
+## 🔧 When I Get Stuck
+Step 1: Watch/read the SAME resource again (10 min)
+Step 2: Try a DIFFERENT resource (15 min)
+Step 3: Try to EXPLAIN it to yourself out loud (5 min)
+Step 4: Practice it HANDS-ON (20 min)
+Step 5: If STILL stuck → Write it in revisit list → Move on
+Step 6: Ask for help (Stack Overflow, Reddit, internal Slack)
+
+RULE: Never spend more than 30 minutes stuck on ONE concept.
+
+
+---
+
+## 📅 Complete Timeline Summary
+Week 1: SQL — Window Functions & Advanced
+Week 2: SQL — Complex Queries & Interview Prep
+Week 3: 🔨 SQL PROJECT (E-Commerce Analysis) + Buffer
+Week 4: Linux — Basic Commands & File System
+Week 5: Linux — Process Management & Scripting
+Week 6: 🔨 LINUX PROJECT (Server Automation Toolkit) + Buffer
+Week 7: Networking — IP, TCP/UDP, DNS
+Week 8: Networking — HTTP, Wireshark, Troubleshooting
+Week 9: 🔨 NETWORKING PROJECT (Troubleshooting Lab) + Buffer
+Week 10: AWS — IAM, EC2, S3
+Week 11: AWS — VPC, RDS, CloudWatch
+Week 12: AWS — More Services & Certification Prep
+Week 13: 🔨 AWS PROJECT (Full Web App Deployment)
+Week 14: 🔄 AWS BUFFER + Certification
+Week 15: API — REST, Postman, curl
+Week 16: Troubleshooting — Break & Fix, Log Analysis
+Week 17: 🔨 TROUBLESHOOTING PROJECT (Incident Simulator) + Buffer
+Week 18: Python — Basics & Fundamentals
+Week 19: Python — APIs, Boto3, Automation
+Week 20: 🔨 PYTHON PROJECT (AWS Monitor Bot) + Buffer
+Week 21: 🔄 FULL REVISION WEEK
+Week 22: 🎯 INTERVIEW PREP + CAPSTONE PORTFOLIO
 ---
 
 ## 🏁 End Goal
@@ -1194,7 +1027,7 @@ After 22 weeks I will have:
 
 ---
 
-*Started: [25 March 2026]*
+*Started: [15 March 2026]*
 *Target: [31 August 2026]*
 *Current Week: ___*
 
