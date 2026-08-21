@@ -1,240 +1,187 @@
-# Tech-transition-roadmap
-My 22-week plan to transition from non-tech to tech role
+# 🗺️ Tech Transition Roadmap
 
-# 🚀 22-Week Tech Transition Roadmap
-
-A structured plan to transition from a non-tech operations role to a technical role (Cloud Support / Technical Support Engineer).
-
----
-
-## 👩‍💻 About Me
-- 🎓 BTech CSE (2017) | MTech CSE (Pursuing)
-- 💼 5+ years at Amazon in operations
-- 🎯 Goal: Transition to Technical Support Engineer / AWS Cloud Support Associate
-- 📅 Started: March 2026
-- 📍 Target Completion: August 2026
+**From:** Amazon Operations / QA (5+ years)
+**To:** L4 Support Engineer → SRE / Systems Dev Engineer
+**Started fresh:** August 2026
+**Timeline:** 6 months (realistic, alongside full-time job)
+**Time budget:** ~8 hrs/week (60-75 min weekdays + 3-4 hrs weekends)
 
 ---
 
-## 🗺️ Roadmap Overview
+## 🧭 The Plan
 
-| Phase | Topic | Weeks | Project | Status |
-|-------|-------|-------|---------|--------|
-| 1 | SQL | Week 1-2 | | 🟡 In Progress |
-| — | 🔨 SQL Project + Buffer | Week 3 | E-Commerce Sales Analysis | ⬜ Not Started |
-| 2 | Linux Fundamentals | Week 4-5 | | ⬜ Not Started |
-| — | 🔨 Linux Project + Buffer | Week 6 | Server Automation Toolkit | ⬜ Not Started |
-| 3 | Networking | Week 7-8 | | ⬜ Not Started |
-| — | 🔨 Networking Project + Buffer | Week 9 | Network Troubleshooting Lab | ⬜ Not Started |
-| 4 | AWS Cloud | Week 10-12 | | ⬜ Not Started |
-| — | 🔨 AWS Project | Week 13 | Full Web App on AWS | ⬜ Not Started |
-| — | 🔄 AWS Buffer + Certification | Week 14 | | ⬜ Not Started |
-| 5 | API + Troubleshooting | Week 15-16 | | ⬜ Not Started |
-| — | 🔨 Troubleshooting Project + Buffer | Week 17 | Incident Response Simulator | ⬜ Not Started |
-| 6 | Python Basics | Week 18-19 | | ⬜ Not Started |
-| — | 🔨 Python Project + Buffer | Week 20 | AWS Infrastructure Monitor Bot | ⬜ Not Started |
-| 7 | 🔄 Full Revision | Week 21 | | ⬜ Not Started |
-| 8 | 🎯 Interview Prep + Capstone | Week 22 | Portfolio Documentation | ⬜ Not Started |
+One skill at a time. Each month ends with something shipped. No multitasking.
 
-### Status Legend
-- ⬜ Not Started | 🟡 In Progress | ✅ Completed | 🔄 Revisiting
+| Month | Focus | Outcome | Repo |
+|-------|-------|---------|------|
+| **Month 1** (Aug-Sep) | Python fundamentals | Solid basics: variables → functions → file I/O → OOP | [python-practice](https://github.com/Syeda-Sameera-Unnissa/python-practice) |
+| **Month 2** (Sep-Oct) | Python applied | CLI tool with tests, automation scripts, API calls | [python-practice](https://github.com/Syeda-Sameera-Unnissa/python-practice) |
+| **Month 3** (Oct-Nov) | SQL depth | Window functions, query optimization, case studies | [sql-practice](https://github.com/Syeda-Sameera-Unnissa/sql-practice) |
+| **Month 4** (Nov-Dec) | Linux + Bash | Commands, permissions, processes, shell scripts | linux-labs |
+| **Month 5** (Dec-Jan) | Networking + APIs | TCP/IP, DNS, HTTP, REST, curl, build a mini API | networking-and-apis |
+| **Month 6** (Jan-Feb) | AWS + System Design | Cloud Practitioner prep, architecture, boto3 | aws-projects |
 
 ---
 
-## ⏰ Time Commitment
+## ✅ What's Already Done
 
-~11.5 hours per week (1.5 hrs on weekdays, 2 hrs on weekends) alongside a full-time job.
+- [x] SQL fundamentals through window functions, CTEs, case studies (12 modules)
+- [x] Python basics: print, variables, input, data types, operators, conditionals
+- [ ] Python loops, data structures, functions, file handling, OOP
+- [ ] Everything else
+
+---
+
+## 📅 Monthly Breakdown
+
+### Month 1 — Python Fundamentals (Current)
+
+**Goal:** Go from "basics done" to "can write real programs"
+
+| Week | Topics | Practice |
+|------|--------|----------|
+| 1 | Loops (for, while, range, break/continue) | 15-20 exercises |
+| 2 | Data structures (lists, tuples, dicts, sets) | 15-20 exercises |
+| 3 | Functions (def, args, return, scope, lambda) | 15-20 exercises |
+| 4 | File handling + error handling (try/except) | 10 exercises + 1 mini project |
+
+**Ship:** All exercises pushed to python-practice repo. Folders 03-06 complete.
+
+---
+
+### Month 2 — Python Applied
+
+**Goal:** Write code an engineer would accept. Tests. Structure. Real tools.
+
+| Week | Topics | Practice |
+|------|--------|----------|
+| 1 | Modules, packages, virtualenv, pip | Organize a small project properly |
+| 2 | Working with APIs (requests library, JSON) | Hit 3 public APIs, parse responses |
+| 3 | Testing (pytest basics, assertions) | Write tests for previous exercises |
+| 4 | Build a CLI tool | One complete tool: input → processing → output → tests |
+
+**Ship:** A working CLI tool with pytest tests and a README in python-practice/08-projects/
+
+---
+
+### Month 3 — SQL Depth
+
+**Goal:** Go from "can write queries" to "can optimize and explain them"
+
+| Week | Topics | Practice |
+|------|--------|----------|
+| 1 | Complex JOINs, self-joins, anti-joins | 10 problems |
+| 2 | Window functions deep dive (RANK, LAG, LEAD, running totals) | 10 problems |
+| 3 | Query optimization, indexes, EXPLAIN plans | Analyze 5 slow queries |
+| 4 | Real case study: analyze a dataset end-to-end | Full writeup |
+
+**Ship:** New files in sql-practice repo. Updated README with optimization notes.
+
+---
+
+### Month 4 — Linux + Bash
+
+**Goal:** Be comfortable on a Linux command line. Write scripts that do real work.
+
+| Week | Topics | Practice |
+|------|--------|----------|
+| 1 | Navigation, files, permissions, processes | Daily CLI practice |
+| 2 | grep, sed, awk, pipes, redirection | Parse real log files |
+| 3 | Bash scripting (variables, loops, conditionals, functions) | 5 scripts |
+| 4 | System admin basics (cron, services, ssh, troubleshooting) | Set up a VM |
+
+**Ship:** linux-labs repo with 5+ scripts and a log-analysis exercise.
+
+---
+
+### Month 5 — Networking + APIs
+
+**Goal:** Understand how the internet works. Build and consume APIs.
+
+| Week | Topics | Practice |
+|------|--------|----------|
+| 1 | TCP/IP, DNS, HTTP/HTTPS, ports, status codes | Diagrams + notes |
+| 2 | Troubleshooting tools (ping, traceroute, netstat, curl, dig) | 10 scenarios |
+| 3 | REST APIs: build a simple one (Flask or FastAPI) | Working API |
+| 4 | Postman, API debugging, webhooks | Document 5 API interactions |
+
+**Ship:** networking-and-apis repo with a working mini API + troubleshooting guide.
+
+---
+
+### Month 6 — AWS + System Design
+
+**Goal:** Cloud Practitioner level knowledge. Understand how systems fit together.
+
+| Week | Topics | Practice |
+|------|--------|----------|
+| 1 | AWS core: IAM, EC2, S3, VPC | Free tier hands-on |
+| 2 | AWS services: RDS, Lambda, CloudWatch, Route53 | Build a simple architecture |
+| 3 | System design basics (load balancing, caching, queues, scaling) | 3 design writeups |
+| 4 | Capstone: design doc for Paragon Queue Advisor as a system | Full writeup |
+
+**Ship:** aws-projects repo. Cloud Practitioner exam scheduled or passed.
 
 ---
 
 ## 🎯 Target Roles
 
-**Internal (Amazon):**
-- AWS Cloud Support Associate
-- Technical Support Engineer
-- IT Support Engineer
-- Operations Engineer
+**Primary (Amazon internal, L4):**
+- Support Engineer
+- Systems Dev Engineer
 
-**External (Backup):**
+**Backup (external):**
 - Cloud Support Engineer
 - Technical Support Engineer
-- Junior DevOps Engineer
+- Junior SRE / DevOps Engineer
 
 ---
 
-## 📊 Projects Overview
+## 📏 My Rules
 
-Each phase ends with a hands-on project that applies what I learned.
-
-| Week | Subject | Project | Description |
-|------|---------|---------|-------------|
-| 3 | SQL | E-Commerce Sales Analysis | 15+ business queries on real Kaggle dataset |
-| 6 | Linux | Server Automation Toolkit | 5 bash scripts for server management |
-| 9 | Networking | Network Troubleshooting Lab | Wireshark captures + 25 scenarios + CLI guide |
-| 13 | AWS | Full Web App Deployment | 3-tier architecture: EC2 + VPC + RDS + S3 + CloudWatch |
-| 17 | Troubleshooting | Incident Response Simulator | 10 real incidents + 5 runbooks |
-| 20 | Python | AWS Infrastructure Monitor Bot | Python bot monitoring AWS with boto3 |
-| 22 | Capstone | Portfolio Documentation | All projects linked + applications submitted |
-
-### Difficulty Progression
-
-```
-Week 3:  SQL Project ─────────── Beginner
-Week 6:  Linux Project ────────── Beginner-Intermediate
-Week 9:  Networking Project ───── Intermediate
-Week 13: AWS Project ──────────── Intermediate-Advanced
-Week 17: Troubleshooting ──────── Advanced
-Week 20: Python Project ────────── Advanced (combines everything)
-```
+1. Never skip 2 days in a row
+2. If tired, do 30 minutes instead of zero
+3. One skill per month — no multitasking
+4. Push to GitHub at least 3x per week
+5. Done is better than perfect
+6. If stuck for 30 minutes, note it and move on
+7. Every month ends with a shipped artifact
 
 ---
 
-## 📚 Free Resources I'm Using
+## 📂 Portfolio Repos
 
-### SQL
-| Type | Resource |
-|------|----------|
-| LinkedIn Learning | SQL Essential Training — Walter Shields |
-| LinkedIn Learning | Advanced SQL for Data Scientists — Jess Pomfret |
-| LinkedIn Learning | SQL: Data Reporting and Analysis — Emma Saunders |
-| LinkedIn Learning | SQL Window Functions — Adam Wilbert |
-| YouTube | SQL Full Course — Mosh Hamedani |
-| YouTube | SQL Playlist — techTFQ |
-| YouTube | SQL Interview Questions — DataWithBaraa |
-| Practice | [SQLBolt](https://sqlbolt.com) • [HackerRank SQL](https://hackerrank.com/domains/sql) • [LeetCode SQL 50](https://leetcode.com/studyplan/top-sql-50) • [SQLZoo](https://sqlzoo.net) |
-| Practice | [Mode Analytics](https://mode.com/sql-tutorial) • [Select Star SQL](https://selectstarsql.com) • [PG Exercises](https://pgexercises.com) |
-| Reference | [W3Schools SQL](https://w3schools.com/sql) • [SQL Cheat Sheet](https://learnsql.com/blog/sql-basics-cheat-sheet/) |
-
-### Linux
-| Type | Resource |
-|------|----------|
-| LinkedIn Learning | Learning Linux Command Line — Scott Simpson |
-| LinkedIn Learning | Linux: Files and Permissions — Grant McWilliams |
-| LinkedIn Learning | Linux: Bash Shell and Scripts — Kevin Dankwardt |
-| YouTube | Linux for Beginners — LearnLinuxTV |
-| YouTube | Linux Crash Course — NetworkChuck |
-| YouTube | Bash Scripting Full Course — freeCodeCamp |
-| Practice | [OverTheWire Bandit](https://overthewire.org/wargames/bandit/) • [Linux Survival](https://linuxsurvival.com) • [TryHackMe](https://tryhackme.com) |
-| Free Book | [The Linux Command Line — William Shotts](https://linuxcommand.org/tlcl.php) |
-| Reference | [ExplainShell](https://explainshell.com) • [Devhints Bash](https://devhints.io/bash) |
-
-### Networking
-| Type | Resource |
-|------|----------|
-| LinkedIn Learning | Networking Foundations: Basics, Protocols, IP Addressing — Kevin Wallace |
-| LinkedIn Learning | Learning Computer Networking — Ed Liberman |
-| YouTube | NetworkChuck • PowerCert Animated Videos |
-| YouTube | Computer Networking Full Course — freeCodeCamp |
-| Practice | [Wireshark](https://wireshark.org) • [Subnetting Practice](https://subnettingpractice.com) • [Mess With DNS](https://messwithdns.net) |
-| Free Visual | [How DNS Works](https://howdns.works) • [How HTTPS Works](https://howhttps.works) |
-| Reference | [Packet Life Cheat Sheets](https://packetlife.net/library/cheat-sheets/) |
-
-### AWS
-| Type | Resource |
-|------|----------|
-| LinkedIn Learning | AWS Essential Training • EC2 • S3 • Networking • Monitoring |
-| LinkedIn Learning | Exam Prep: AWS Cloud Practitioner (CLF-C02) |
-| YouTube | AWS Cloud Practitioner — Stephane Maarek |
-| YouTube | AWS Full Course — freeCodeCamp |
-| YouTube | AWS for Beginners — TechWorld with Nana |
-| Amazon Internal | [AWS Skill Builder](https://explore.skillbuilder.aws) |
-| Practice | [AWS Free Tier](https://aws.amazon.com/free) • [TutorialsDojo](https://tutorialsdojo.com/aws-cloud-practitioner/) |
-| Reference | [AWS in Plain English](https://expeditedsecurity.com/aws-in-plain-english/) • [TutorialsDojo Cheat Sheets](https://tutorialsdojo.com/aws-cheat-sheets/) |
-
-### API & Troubleshooting
-| Type | Resource |
-|------|----------|
-| LinkedIn Learning | Learning REST APIs — Morten Rand-Hendriksen |
-| LinkedIn Learning | HTTP Essential Training |
-| LinkedIn Learning | Troubleshooting Your Network with Wireshark |
-| YouTube | What is an API? — MuleSoft |
-| YouTube | APIs for Beginners — freeCodeCamp |
-| Practice | [Postman](https://postman.com) • [JSONPlaceholder](https://jsonplaceholder.typicode.com) • [HTTPStat.us](https://httpstat.us) |
-| Reference | [HTTP Status Codes](https://httpstatuses.com) • [Mozilla HTTP Reference](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status) |
-
-### Python
-| Type | Resource |
-|------|----------|
-| LinkedIn Learning | Python Essential Training — Ryan Mitchell |
-| LinkedIn Learning | Python: Working with Files |
-| LinkedIn Learning | Using Python with APIs |
-| YouTube | Python for Beginners — Mosh Hamedani |
-| YouTube | Automate with Python — freeCodeCamp |
-| YouTube | Boto3 Tutorial — Be A Better Dev |
-| Free Book | [Automate the Boring Stuff with Python](https://automatetheboringstuff.com) |
-| Practice | [HackerRank Python](https://hackerrank.com/domains/python) • [PythonTutor](https://pythontutor.com) |
-| Reference | [Real Python](https://realpython.com) • [Boto3 Docs](https://boto3.amazonaws.com/v1/documentation/api/latest/) |
+| Repo | Status |
+|------|--------|
+| [python-practice](https://github.com/Syeda-Sameera-Unnissa/python-practice) | 🟡 In Progress |
+| [sql-practice](https://github.com/Syeda-Sameera-Unnissa/sql-practice) | ✅ Complete (will extend in Month 3) |
+| linux-labs | ⏳ Month 4 |
+| networking-and-apis | ⏳ Month 5 |
+| aws-projects | ⏳ Month 6 |
 
 ---
 
-## 📂 GitHub Portfolio (Growing)
+## 📊 Progress Tracker
 
-| Repo | Topic | Status |
-|------|-------|--------|
-| [sql-practice](https://github.com/Syeda-Sameera-Unnissa/sql-practice) | SQL | 🟡 In Progress |
-| linux-practice | Linux | ⬜ Upcoming |
-| networking-notes | Networking | ⬜ Upcoming |
-| aws-learning | AWS Cloud | ⬜ Upcoming |
-| troubleshooting-lab | Troubleshooting | ⬜ Upcoming |
-| python-learning | Python | ⬜ Upcoming |
-
----
-
-## 📌 My Rules
-
-1. **Never skip 2 days in a row**
-2. **If tired, do 30 minutes instead of zero**
-3. **Consistency beats intensity**
-4. **Never spend more than 30 minutes stuck on one concept — note it and move on**
-5. **Buffer/project weeks are NOT optional**
-6. **Done is better than perfect**
-7. **Commit to GitHub every week minimum**
+| Month | Status | Key Milestone |
+|-------|--------|---------------|
+| Month 1 | 🟡 In Progress | Python loops → functions → file I/O |
+| Month 2 | ⬜ | CLI tool with tests |
+| Month 3 | ⬜ | SQL optimization + case study |
+| Month 4 | ⬜ | 5 bash scripts + log analysis |
+| Month 5 | ⬜ | Working REST API |
+| Month 6 | ⬜ | AWS Cloud Practitioner + system design doc |
 
 ---
 
-## 🔧 When I Get Stuck
+## 🧠 Why This Order?
 
-1. Watch/read the SAME resource again (10 min)
-2. Try a DIFFERENT resource (15 min)
-3. Try to EXPLAIN it to yourself out loud (5 min)
-4. Practice it HANDS-ON (20 min)
-5. If STILL stuck → Write it in revisit list → Move on
-6. Ask for help (Stack Overflow, Reddit, internal Slack)
-
-> Never spend more than 30 minutes stuck on ONE concept.
+1. **Python first** — it's where my momentum is, and it's the foundation for everything else (automation, AWS boto3, API work)
+2. **SQL depth second** — I already have basics done; deepening it is fast ROI
+3. **Linux third** — needed for any systems role, but benefits from Python scripting knowledge
+4. **Networking + APIs fourth** — builds on Linux and Python
+5. **AWS last** — ties everything together; Python + Linux + Networking make AWS 10x easier
 
 ---
 
-## 🏁 End Goal
-
-After 22 weeks I will have:
-- 7+ active GitHub repositories
-- 6 portfolio projects
-- AWS Cloud Practitioner Certification
-- Skills in SQL, Linux, Networking, AWS, API, Python
-- Troubleshooting playbook with 25+ scenarios
-- Applied to internal and external technical roles
-- Updated LinkedIn and interview-ready STAR stories
-
----
-
-## 📅 Timeline
-
-```
-Week 1-3:   SQL (fundamentals → advanced → project)
-Week 4-6:   Linux (commands → scripting → project)
-Week 7-9:   Networking (concepts → tools → project)
-Week 10-14: AWS (services → architecture → project → certification)
-Week 15-17: API + Troubleshooting (REST → debugging → project)
-Week 18-20: Python (basics → automation → project)
-Week 21:    Full revision
-Week 22:    Interview prep + applications
-```
-
-**Current Week: Week 2 — SQL**
-
----
-
-*"You don't have to be great to start. But you have to start to be great."*
-
-> "5 years from now, you'll wish you started today. But you already did. Keep going." 💪
+*Updated: August 2026. This replaces the original 22-week plan that wasn't realistic.*
